@@ -7,7 +7,10 @@ const botonNo = document.getElementById('no');
 const tamañoOriginal = parseFloat(window.getComputedStyle(botonSi).fontSize);
 
 // Lista de GIFs para cambiar cuando se presione "No"
-const gifs = ['https://www.google.com/url?sa=i&url=https%3A%2F%2Ftenor.com%2Fview%2Fgato-sorprendido-gif-2100480603424472130&psig=AOvVaw2WMKDZOGVU4Y2Q6rXZO9GQ&ust=1739334884903000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCNDytMHluosDFQAAAAAdAAAAABAE']; // Agrega aquí los nombres de tus GIFs
+const gifs = ['https://media.tenor.com/Nqf3-gUgySsAAAAM/cat-sad-gato-triste.gif','https://media.tenor.com/gm_mhpzK1wsAAAAM/gato-cat.gif'
+    ,'https://i.pinimg.com/originals/21/0f/0a/210f0a8cc74bbd9f8be4c5def6ecced6.gif','https://media.tenor.com/t7_iTN0iYekAAAAM/sad-sad-cat.gif'
+    ,'https://media.tenor.com/RZzU2_IbHDEAAAAM/cat-side-eye.gif',''
+]; // Agrega aquí los nombres de tus GIFs
 let indiceGif = 0;
 
 // Función para cambiar el GIF
